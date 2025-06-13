@@ -16,9 +16,9 @@ The system can be served locally through [Ollama](https://ollama.com/) though mo
 
 ## Acknowledgements
 
-Thank you to Dan Sommer for very useful LLM discussions
+Thank you to Dan Sommer for very useful LLM discussions.
 
-## TO-DO
+## TO-DOs
 
 - Replace querying code with a more pleasant and convenient frontend
 - Benchmark accuracy between different embeddings and/or LLMs
