@@ -22,3 +22,4 @@ Thank you to Dan Sommer for very useful LLM discussions.
 
 - Replace querying code with a more pleasant and convenient frontend
 - Benchmark accuracy between different embeddings and/or LLMs
+- Maybe AIBookButler can also discuss the full-text of a book after recommending it ? 
