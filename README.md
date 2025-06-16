@@ -10,7 +10,7 @@ though you can swap this out for cloud-hosted commercial LLM providers if you'd 
 
 Currently available functions are:
 
-- `Vector search`: recommend a book similar to what the user inputs (eg. "a book about sailing") from the "7K books" dataset from Kaggle
+- `Vector search`: recommend a book similar to what the user inputs (eg. "a book about sailing") from a small test dataset of books
 
 - `Sentiment analysis`: analyze the sentiment of a text passage via a web-based interactive prompt
 
