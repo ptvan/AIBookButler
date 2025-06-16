@@ -10,7 +10,7 @@ though you can swap this out for cloud-hosted commercial LLM providers if you'd 
 
 Currently available functions are:
 
-- `Vector search`: recommend a book similar to what the user inputs (eg. "a book about sailing") from a small test dataset of books
+- `Vector search`: recommend a book similar to what the user inputs (eg. "a book about Michigan") from a small test dataset of preloaded books
 
 - `Sentiment analysis`: analyze the sentiment of a text passage via a web-based interactive prompt
 
@@ -21,6 +21,6 @@ Thank you to Dan Sommer for very useful LLM discussions.
 ## TO-DOs
 
 - Additional chat UI in Gradio
-- Chat feedback
 - Text summarization
+- Incorporate feedback so chat can be an actual conversation
 - Benchmark accuracy between different embeddings and/or LLMs
