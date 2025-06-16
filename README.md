@@ -1,18 +1,18 @@
 # AIBookButler
 
-This repo contains a book recommendation system powered by [LangChain](https://python.langchain.com/docs/introduction/).
+![sentiment_Streamlit_screenshot.png]
 
-## Data
-
-The Kaggle dataset [7K Books with metadata](https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata) is used for training.
-
-## Code
-
-Raw CSV from Kaggle is cleaned, resulting in ~5000 rows of data. This text is split and loaded into a Chroma vector database using an English text embedding (I used [nomic-embed-text](https://ollama.com/search?q=embed)).
+This repo contains code that uses LLMs to act like a "book butler" (see "Usage" below for available tasks).
+The focus is being simple and lightweight, so all code runs locally, calling open-source LLMs via Ollama,
+though you can swap this out for cloud-hosted commercial LLM providers if you'd like. 
 
 ## Usage
 
-The system can be served locally through [Ollama](https://ollama.com/) though most LLMs should work. A query can be entered using [1_vector_search.ipynb](1_vector_search.ipynb) (eg. "a book about sailing"), which returns top hits from the database using a similarity search. 
+Currently available functions are:
+
+- `Vector search`: recommend a book similar to what the user inputs (eg. "a book about sailing") from the "7K books" dataset from Kaggle
+
+- `Sentiment analysis`: analyze the sentiment of a text passage via a web-based interactive prompt
 
 ## Acknowledgements
 
@@ -20,6 +20,7 @@ Thank you to Dan Sommer for very useful LLM discussions.
 
 ## TO-DOs
 
-- Replace querying code with a more pleasant and convenient frontend
+- Additional chat UI in Gradio
+- Chat feedback
+- Text summarization
 - Benchmark accuracy between different embeddings and/or LLMs
-- Maybe AIBookButler can also discuss the full-text of a book after recommending it ? 
