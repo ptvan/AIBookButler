@@ -1,6 +1,6 @@
 # AIBookButler
 
-![sentiment_Streamlit_screenshot.png]
+![Sentiment Analysis dashboard](sentiment_Streamlit_screenshot.png)
 
 This repo contains code that uses LLMs to act like a "book butler" (see "Usage" below for available tasks).
 The focus is being simple and lightweight, so all code runs locally, calling open-source LLMs via Ollama,
