@@ -22,7 +22,6 @@ Thank you to Dan Sommer for very useful LLM discussions.
 
 ## TO-DOs
 
-- Additional chat UI in Gradio
 - Text summarization
-- Incorporate feedback so chat can be an actual conversation
 - Benchmark accuracy between different embeddings and/or LLMs
+- RAG: retrieving text of book reviews
