@@ -1,5 +1,7 @@
 # AIBookButler
 
+![Book recommender](vector_search_screenshot.png)
+
 ![Sentiment Analysis dashboard](sentiment_Streamlit_screenshot.png)
 
 This repo contains code that uses LLMs to act like a "book butler" (see "Usage" below for available tasks).
@@ -10,7 +12,7 @@ though you can swap this out for cloud-hosted commercial LLM providers if you'd 
 
 Currently available functions are:
 
-- `Vector search`: recommend a book similar to what the user inputs (eg. "a book about Michigan") from a small test dataset of preloaded books
+- `Vector search`: recommend a book similar to what the user inputs (_eg._ "a murder mystery") from a small test dataset of preloaded books
 
 - `Sentiment analysis`: analyze the sentiment of a text passage via a web-based interactive prompt
 
